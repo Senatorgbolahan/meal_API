@@ -9,7 +9,7 @@ import MealList from '../components/MealList'
 export default function Home() {
 
   const [loading, setLoading] = useState(false);
-  const [searchTerm, setSearchterm] = useState("ab");
+  const [searchTerm, setSearchterm] = useState("a");
   const [meal, setMeal] = useState([]);
 
   const URL = `https://www.themealdb.com/api/json/v1/1/search.php?s=${searchTerm}`;
